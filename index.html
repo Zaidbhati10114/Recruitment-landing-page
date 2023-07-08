@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Recruitment Solution</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      .slide {
+        height: 500px;
+        background-color: #f8f9fa;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+      }
+
+      #navbar {
+        background-color: #333;
+      }
+
+      #navbar a {
+        color: #fff;
+      }
+
+      #features {
+        background-color: #f8f9fa;
+        padding: 50px 0;
+      }
+
+      #features h2 {
+        margin-bottom: 50px;
+      }
+
+      #login,
+      #register {
+        margin-top: 50px;
+      }
+
+      .jumbo {
+        height: 40rem;
+        background-color: #f5f5f5;
+      }
+
+      .accord-style {
+        width: 20rem;
+      }
+
+      .card-3 {
+        padding-bottom: 20px;
+      }
+
+      .drop-color {
+        background-color: #ffeadd;
+      }
+
+      .footer-ui {
+        height: 20rem;
+        background-color: black;
+      }
+
+      .text-footer {
+        color: white;
+        padding-top: 10rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Digital Recruitment Solution</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/register.html">Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active slide">
+          <h1>Efficient Recruitment Solution</h1>
+        </div>
+        <div class="carousel-item slide">
+          <h1>Streamline Your Hiring Process</h1>
+        </div>
+        <div class="carousel-item slide">
+          <h1>Find the Right Candidates Faster</h1>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <section id="features">
+      <div class="container">
+        <h2>Key Features and Benefits</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <h4>Efficient Candidate Search</h4>
+            <p>
+              Our platform provides advanced search capabilities to help you
+              find the right candidates quickly and easily.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h4>Automated Screening Process</h4>
+            <p>
+              Spend less time on manual screening with our automated process
+              that filters and ranks candidates based on their qualifications.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h4>Collaborative Hiring Workflow</h4>
+            <p>
+              Streamline your hiring process with a collaborative workflow that
+              allows your team to work together efficiently.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="" id="features-2 p-3">
+      <div class="jumbotron jumbotron-fluid jumbo align-items-center">
+        <h1 class="display-7 p-3">Applicant tracking system (ATS)</h1>
+        <p class="lead p-3">
+          Highlight the ATS capabilities of your app, such as resume parsing,
+          candidate profile management, interview scheduling, and collaborative
+          evaluation tools for streamlining the hiring process. An ATS allows
+          recruiters to effectively manage the entire application process. It
+          provides a centralized platform to receive, store, and organize
+          candidate resumes, cover letters, and application materials.
+          Recruiters can easily search and filter through applications based on
+          specific criteria, ensuring efficient candidate screening. ATS allows
+          recruiters to create and manage job postings within the system. They
+          can customize job templates, specify job requirements, and post
+          openings to various job boards and career
+        </p>
+        <hr class="my-4" />
+        <h1 class="display-7 p-3 text-center">
+          Candidate sourcing and screening
+        </h1>
+        <p class="lead p-3">
+          Emphasize features that enable efficient candidate sourcing and
+          screening, such as AI-powered candidate matching, resume keyword
+          search, filtering options, and integration with professional
+          networking platforms. AI-powered candidate matching: Many modern
+          recruitment solutions incorporate artificial intelligence (AI)
+          capabilities to facilitate candidate matching. These systems use
+          algorithms to analyze job requirements and compare them to candidate
+          profiles, generating a match score or ranking. AI-powered matching can
+          help recruiters identify the most suitable candidates more
+          efficiently, saving time and improving the quality of the shortlisting
+          process. Resume keyword search: An effective recruitment solution app
+          should offer a resume keyword search feature. Recruiters can search
+          through the candidate database using relevant keywords related to job
+          requirements or specific skills. This functionality allows recruiters
+          to quickly identify candidates with the desired qualifications,
+          ensuring a more efficient screening process.
+        </p>
+      </div>
+    </section>
+
+    <!-- DropDown Links -->
+    <h1 class="text-center display-6 p-4">More Features</h1>
+    <div class="card-3">
+      <div class="accordion w-10 container mb-10 card-3" id="accordionExample">
+        <div class="card drop-color">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Analytics and reporting
+              </button>
+            </h2>
+          </div>
+
+          <div
+            id="collapseOne"
+            class="collapse show"
+            aria-labelledby="headingOne"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              Demonstrate how your app provides valuable insights into
+              recruitment performance with features like real-time analytics,
+              customizable reports, and data visualization. Show how these
+              analytics can help optimize hiring strategies.
+            </div>
+          </div>
+        </div>
+        <div class="card drop-color">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Mobile accessibility
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseTwo"
+            class="collapse"
+            aria-labelledby="headingTwo"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              Emphasize that your app is mobile-friendly and available on
+              multiple platforms, allowing recruiters and hiring managers to
+              access and manage recruitment processes anytime, anywhere.
+            </div>
+          </div>
+        </div>
+        <div class="card drop-color">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Integration capabilities
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseThree"
+            class="collapse"
+            aria-labelledby="headingThree"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              Highlight the ability of your app to integrate with other
+              essential tools or platforms, such as HRIS (Human Resources
+              Information System), payroll systems, or background screening
+              services, to create a seamless recruitment ecosystem.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-ui">
+        <footer class="text-center text-footer p-2">Copyright 2023</footer>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login Page</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      .login-card {
+        background-color: #f8fdcf;
+      }
+      .login-comp {
+        margin-top: 10rem;
+        border-radius: 18px;
+      }
+
+      .email-password-width {
+        width: 20rem;
+      }
+
+      .email-center {
+        padding-left: 25rem;
+      }
+
+      .short-size {
+        width: 70rem;
+      }
+
+      .register {
+        background-color: #78c1f3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container short-size">
+      <div class="login-card">
+        <section id="login" class="text-center login-comp">
+          <div class="container">
+            <h2 class="p-4">Login</h2>
+            <form class="p-2">
+              <div class="form-group email-center">
+                <input
+                  type="name"
+                  class="form-control email-password-width m-2 ml-10"
+                  placeholder="Full Name"
+                />
+              </div>
+              <div class="form-group email-center">
+                <input
+                  type="email"
+                  class="form-control email-password-width m-2 ml-10"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="form-group email-center">
+                <input
+                  type="password"
+                  class="form-control m-2 email-password-width"
+                  placeholder="Password"
+                />
+              </div>
+              <div class="p-4">
+                <button type="submit" class="btn btn-primary">Login</button>
+                <a href="/login.html" class="btn register">
+                  Register
+                </a>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
